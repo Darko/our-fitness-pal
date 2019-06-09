@@ -1,5 +1,6 @@
 {
-  "name": "frontend",
+  "name": "our-fitness-pal",
+  "description": "It's not MY gains, it's OUR gains",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
