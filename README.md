@@ -8,6 +8,8 @@ Backend's built on node.js with typescript, and graphql. All you gotta do is:
 2. yarn/npm install
 3. yarn build:watch to run the server AND watch over changes / auto compile and stuff
 
+### Running the frontend
+
 Frontend's built with React, basically do 1 and 2 from the backend and then:
 3. yarn start
 
