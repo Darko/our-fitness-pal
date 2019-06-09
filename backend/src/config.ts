@@ -14,8 +14,8 @@ interface Config {
 const config: Config = {
   port: Number(process.env.PORT) || 8082,
   mongoose: {
-    name: 'Pretty Sparkasse',
-    uri: process.env.MONGO || 'mongodb://localhost/Pretty-Sparkasse',
+    name: 'Our Fitness Pal',
+    uri: process.env.MONGO || 'mongodb://localhost/our-fitness-pal',
     options: {
       autoIndex: true,
       useNewUrlParser: true,
