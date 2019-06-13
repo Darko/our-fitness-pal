@@ -1,7 +1,7 @@
 import app from './app';
 import config from './config';
 import graphqlHttp from 'express-graphql';
-import { gqlSchema } from './models/schema';
+import { gqlSchema } from './models/Exercise';
 import './mongo';
 import './routes';
 

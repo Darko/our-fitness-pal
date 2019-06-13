@@ -5,7 +5,10 @@
   "rules": {
     "interface-name": [false],
     "no-console": [false],
-    "quotemark": [true, "single"]
+    "quotemark": [true, "single"],
+    "object-literal-sort-keys": false,
+    "trailing-comma": false,
+    "ordered-imports": false
   },
   "rulesDirectory": []
 }
