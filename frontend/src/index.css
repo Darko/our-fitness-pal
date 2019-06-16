@@ -1,11 +1,110 @@
+@font-face {
+  font-family: 'CircularStd';
+  src: url('./assets/fonts/CircularStd-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url('./assets/fonts/CircularStd-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url('./assets/fonts/CircularStd-Book.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url('./assets/fonts/CircularStd-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+html,
 body {
   margin: 0;
-  font-family: 'CircularStd';
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  --color-primary: #4989fd;
+  --color-background: #0a0e2b;
+  --color-card: #2b2b3e;
+  --color-text-heading: rgba(255, 255, 255, 0.87);
+  --color-text-body: rgba(255, 255, 255, 0.75);
+  --color-text-placeholder: rgba(255, 255, 255, 0.35);
+  --text-size-heading1: 3.87rem;
+  --text-size-heading2: 2.5rem;
+  --text-size-heading3: 2.25rem;
+  --text-size-heading4: 2rem;
+  --text-size-heading5: 1.5rem;
+  --text-size-heading6: 1.12rem;
+  --text-size-body: 1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'CircularStd';
+  font-size: 16px;
+  background-color: var(--color-background);
+  color: var(--color-text-body);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-size: var(--text-size-heading1);
+  color: var(--color-text-heading);
+  margin: 0 0 0.5em;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: var(--text-size-heading2);
+  color: var(--color-text-heading);
+  margin: 0 0 0.5em;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: var(--text-size-heading3);
+  color: var(--color-text-heading);
+  margin: 0 0 0.5em;
+  font-weight: 900;
+}
+
+h4 {
+  font-size: var(--text-size-heading4);
+  color: var(--color-text-heading);
+  margin: 0 0 0.5em;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: var(--text-size-heading5);
+  margin: 0 0 0.5em;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: var(--text-size-heading6);
+  margin: 0 0 0.5em;
+}
+
+p {
+  font-size: var(--text-size-body);
+  margin: 0 0 0.5em;
+  line-height: 1.5;
+  font-weight: 500;
 }
